@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   Author:      Mary Mitchell
+   Date:        03/07/2023 
+   Description: Map Finds For You schema
+   Sources:     Case study and assignment 2 lecture
+
+   Filename:           orders.xsd
+   Supporting Files:   orders.xml
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:attribute name="custID" type="cidType" />
+	<xs:attribute name="title" type="titleType" />
+	<xs:element name="address" type="xs:string" />
+	<xs:element name="phone" type="phoneType" />
+	<xs:element name="email" type="xs:string" />
+	<xs:attribute name="orderID" type="oidType" />
+	<xs:attribute name="orderBy" type="xs:IDREF" />
+	<xs:element name="orderDate" type="xs:date" />
+	<xs:attribute name="itemNumber" type="xs:string" />
+	<xs:attribute name="saleItem" type="saleType" default="N" />
+	<xs:element name="itemQty" type="qtyType" />
+	
+	<xs:simpleType name="cidType">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="cust\d{3}" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="titleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Mr." />
+			<xs:enumeration value="Ms." />
+			<xs:enumeration value="Mrs." />
+		</xs:restriction>
+	</xs:simpleType>	
+	
+	<xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+			<xs:pattern value="\(\d{3}\) \d{3}-\d{4}" />
+        </xs:restriction>
+    </xs:simpleType>
+	
+	<xs:simpleType name="oidType">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="or\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="saleType">
+        <xs:restriction base="xs:string">
+			<xs:enumeration value="Y" />
+			<xs:enumeration value="N" />
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:simpleType name="qtyType">
+        <xs:restriction base="xs:integer">
+			<xs:minInclusive value="1" />
+		</xs:restriction>
+    </xs:simpleType>
+	
+	<xs:element name="customers">
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="customer" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="customer">
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="address" />
+				<xs:element ref="phone" />
+				<xs:element ref="email" minOccurs="0" />
+				<xs:element ref="orders" />
+			</xs:sequence>
+			<xs:attribute ref="custID" use="required" />
+		</xs:complexType>
+    </xs:element>
+    
+    <xs:element name="name">
+        <xs:complexType>
+            <xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="title" use="optional" />
+				</xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="orders">
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="order" maxOccurs="unbounded"/>
+			</xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="order">
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="orderDate" />
+				<xs:element ref="items" />
+			</xs:sequence>
+			<xs:attribute ref="orderID" use="required" />
+			<xs:attribute ref="orderBy" use="required" />
+        </xs:complexType>
+    </xs:element>
+   
+	<xs:element name="items">
+        <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+   
+    <xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+				<xs:element ref="itemPrice" />
+				<xs:element ref="itemQty" />
+			</xs:sequence>
+			<xs:attribute ref="itemNumber" use="required" />
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="itemPrice">
+        <xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:decimal">
+					<xs:attribute ref="saleItem" />
+				</xs:extension>
+			</xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+   
+</xs:schema>
