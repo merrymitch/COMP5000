@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+	Filename:    cars.xml
+	Author:      Mary Mitchell
+	Due Date:    02/14/2023
+	Sources:     GTA Assignment Lecture
+	Description: This file contains the cars vocabulary for assignment 1 of COMP5000
+-->
+
+<cars>
+	<car cid="car1" team="team1 team2">
+		<car_title>car title 1</car_title>
+		<model>model 1</model>
+		<driver>driver 1</driver>
+	</car>
+	<car cid="car2" team="team2">
+		<car_title>car title 2</car_title>
+		<model>model 2</model>
+		<driver>driver 2</driver>
+	</car>
+	<car cid="car3" team="team3">
+		<car_title>car title 3</car_title>
+		<model>model 3</model>
+		<driver>driver 3</driver>
+	</car>
+</cars>

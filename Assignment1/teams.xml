@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+	Filename:    teams.xml
+	Author:      Mary Mitchell
+	Due Date:    02/14/2023
+	Sources:     GTA Assignment Lecture
+	Description: This file contains the teams vocabulary for assignment 1 of COMP5000
+-->
+
+<teams>
+	<team tid="team1" cars="car1">
+		<team_title>team title 1</team_title>
+		<description>description 1</description>
+		<series>series 1</series>
+	</team>
+	<team tid="team2" cars="car1 car2">
+		<team_title>team title 2</team_title>
+		<description>description 2</description>
+		<series>series 2</series>
+	</team>
+	<team tid="team3" cars="car3">
+		<team_title>team title 3</team_title>
+		<description>description 3</description>
+		<series>series 3</series>
+	</team>
+</teams>
