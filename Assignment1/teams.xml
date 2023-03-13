@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teams xmlns:tm = "https://assignment1.edu/teams">
+    <tm:team tid = "European">
+        <tm:title>Porsche</tm:title>
+        <tm:description>A German luxery sports car</tm:description>
+        <tm:series>718</tm:series>
+    </tm:team>
+    <tm:team tid = "American">
+        <tm:title>Ford</tm:title>
+        <tm:description>An American mass market car</tm:description>
+        <tm:series>F150</tm:series>
+    </tm:team>
+</teams>
