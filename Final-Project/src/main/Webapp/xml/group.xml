@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Derius Knight
+
+  Members Wyatt LeMaster, Emma Ingram, Derius Knight, Mary Mitchell, Nan Yang
+  Hobby Helper semester project
+  5/4/2023
+
+
+            name element added by Mary
+    Contents: The more text-heavy attributes of Groups
+              GID refers to ID of group in DB
+
+
+             <id> added by Wyatt LeMaster
+
+
+              -->
+
+
+<!-- Baseball Club -->
+<Groups>
+    <!-- Baseball Club -->
+    <Group GID="G001">
+        <id>1</id>
+        <name>Baseball Club</name>
+        <Description>We are a baseball team that competes in the NCBA against other collegiate baseball teams. We are currently in the NCBA Division I South Atlantic West division. We hold tryouts to determine the roster in the first two weeks of the fall semester. We would love to have anyone with a love of baseball to come and tryout.</Description>
+        <Meeting>Monday/Wednesday/Thursday 6:00pm-8:00pm</Meeting>
+    </Group>
+
+    <!-- Basketball Club -->
+    <Group GID="G002">
+        <id>2</id>
+        <name>Basketball Club</name>
+        <Description>The goal of the AUBCT is to provide students the opportunity to compete on an organized basketball team against other collegiate club basketball teams across the country.  This will provide an environment for basketball players to continue competing, build friendships, and learn about the game of basketball. We will strive to promote sportsmanship and a competitive spirit for people with a love for basketball. We will seek to serve one another as we sacrifice the wants of each individual for the good of the team and University we represent. <br/> We compete in the National Club Basketball Association (NCBBA) and in our first 2 seasons we have won our Region each year, ending the season ranked 16 in the national poll our first year and ranked 13 in this years’ poll, with our highest ranking being 6th in the country. This past year we also won the Andrew Sun Invitational Tournament at Florida State University after beating teams such as Clemson, Florida State, and Miami. <br/> We are looking to continue this success and be even more competitive in the years to come by selecting a team of guys who love basketball and love to compete. As a team, we are looking forward to the new group of guys this coming fall and spring as we have a lot of players on our team from last year graduating. </Description>
+        <Meeting>Sunday/Monday/Wednesday 7:00pm</Meeting>
+    </Group>
+
+
+    <!-- Bass Fishing Club -->
+    <Group GID="G003">
+        <id>3</id>
+        <name>Bass Fishing Club</name>
+        <Description>The purpose of this club is to provide student bass anglers the chance to compete in inter/intra-collegiate competition; to create campus-wide awareness of bass fishing in general as a popular past-time and sport.</Description>
+        <Meeting>Wednesday 7:00pm</Meeting>
+    </Group>
+
+    <!-- Clay Shooting Club -->
+    <Group GID="G004">
+        <id>4</id>
+        <name>Clay Shooting Club</name>
+        <Description>We are a co-ed competitive clay shooting team, mainly competing in American skeet, American trap and sporting clays. Our goal is to give Auburn students the opportunity to grow in skill and character in a safe, strong team environment, and to encourage young people in shooting sports. Safety, leadership, sportsmanship and perseverance are qualities emphasized on our team.</Description>
+        <Meeting>Sundays-Fall Saturdays-Spring 10:00am</Meeting>
+    </Group>
+
+    <!-- Climbing Club -->
+    <Group GID="G005">
+        <id>5</id>
+        <name>Climbing Club</name>
+        <Description>The climbing club was created in order to allow Auburn's climbing community to compete with other universities. We travel around the southeast to competitions in Atlanta, Birmingham, Tuscaloosa, and more! The Auburn Climbing Club also wants to encourage gym climbers to experience the wonders of outdoor climbing. We provide the connections and expertise to allow climbers to enjoy the outdoors. We also want to give back to the climbing community that allows us to do what we love! We offer coaching and practice to both novice and expert climbers, and participate in community clean ups of local crags when available. </Description>
+        <Meeting>Tuesday/Thursday 8:00pm</Meeting>
+    </Group>
+
+    <!-- Cycling Club -->
+    <Group GID="G006">
+        <id>6</id>
+        <name>Cycling Club</name>
+        <Description>The Auburn Flyers are the official club cycling team of Auburn University. The Flyers aim to promote cycling as both a hobby and sport through group rides, social events, and competitive race teams. The Flyers compete in both mountain bike and road seasons as a part of the Southeastern Collegiate Cycling Conference. Come ride with us!</Description>
+        <Meeting>Mondays 7:00pm</Meeting>
+    </Group>
+
+    <!-- Field Hockey Club -->
+    <Group GID="G007">
+        <id>7</id>
+        <name>Field Hockey Club</name>
+        <Description>Auburn's Field Hockey Club is designed to bring people of all skill levels together to promote physical fitness and teamwork while playing in a positive environment. Beginners and experts welcome.</Description>
+        <Meeting>Thursdays/Tuesdays 6:15-8:00pm</Meeting>
+    </Group>
+
+    <!-- Golf Club -->
+    <Group GID="G008">
+        <id>8</id>
+        <name>Golf Club</name>
+        <Description>Auburn’s Club Golf team welcomes any student, male or female, skilled or unskilled, to join. You will have the opportunity to practice at RTJ Grand National golf course. If you qualify for the tournaments, you will have the opportunity to travel and compete against other collegiate schools through the National Collegiate Club Golf Association. Joining the Auburn club golf team is a great way to get out and play, sharpen your golf skills, make new friends, and have a shot at competing against other collegiate club golf teams.</Description>
+        <Meeting>Sunday Noon</Meeting>
+    </Group>
+
+    <!-- Ice Hockey Club -->
+    <Group GID="G009">
+        <id>9</id>
+        <name>Ice Hockey Club</name>
+        <Description>The goal of AUIHC shall be to help provide the opportunity for Auburn University Students to compete in an organized hockey league, promoting fair play, social atmosphere and an arena to develop physical and social skills.</Description>
+        <Meeting>Thursday 5:00pm</Meeting>
+    </Group>
+
+    <!-- Lacrosse Club -->
+    <Group GID="G010">
+        <id>10</id>
+        <name>Lacrosse Club</name>
+        <Description>The lacrosse Club was founded in 1981.The club travels all around the south to compete against some of the nation’s best talent, in an effort to gain admission to the conference tournament and the national tournament. Following fall tryouts, off-season practice begins in September. During this time we focus on conditioning, strength and speed, as well as team building on and off the field. Regular season practice begins in January. During the spring semester conference tournaments and games are scheduled.</Description>
+        <Meeting>Monday6:00-8:00pm/Wednesday8:00-10:00pm/Thursday6:00-8:00pm</Meeting>
+    </Group>
+
+    <!-- Powerlifting Club -->
+    <Group GID="G011">
+        <id>11</id>
+        <name>Powerlifting Club</name>
+        <Description>A club sport for powerlifting. We are open to lifters of all experience levels. Whether you would like to just learn more about lifting weights or compete for Auburn at USAPL Collegiate Nationals in the Spring, we are the club for you! The club hosts powerlifting meets in Auburn and travels to meet such as Collegiate Nationals every year as a team. </Description>
+        <Meeting> Monday/Thursday  5pm </Meeting>
+    </Group>
+
+    <!-- Rowing Club -->
+    <Group GID="G012">
+        <id>12</id>
+        <name>Rowing Club</name>
+        <Description>The Auburn University Rowing Club invites anyone interested to join the team, no experience necessary. Rowing is a sport that works every major muscle group in the body, and is a great way to stay in shape during your time here at Auburn. If you're looking to get fit or meet a great group of people, come check out the Rowing Club! </Description>
+        <Meeting>Tuesday/Thursday 5:00-6:00pm</Meeting>
+    </Group>
+
+    <!-- Rugby Club -->
+    <Group GID="G013">
+        <id>13</id>
+        <name>Rugby Club</name>
+        <Description>The Auburn University Rugby Club is one of the oldest clubs in Auburn and exists to promote the sport and culture of rugby football in the Auburn community. Anyone interested in playing a fast paced, physical game is welcome to come out and help us bring a national championship to Auburn. Rugby requires players of all shapes and sizes; size and experience is not required. The majority of our players did not play rugby until they arrived at Auburn, and our players have backgrounds ranging from baseball to soccer to football. We only ask that you work hard and strive to learn the game. </Description>
+        <Meeting>Tuesday/Wednesday/Thursday 6:00-8:00pm</Meeting>
+    </Group>
+
+    <!-- Sailing Club -->
+    <Group GID="G014">
+        <id>14</id>
+        <name>Sailing Club</name>
+        <Description>Auburn Sailing Club gives students the opportunity to learn or refine their sailing skills while becoming a part of a community that is unlike any other. Our club consists of a racing side and a club side, but both sides are equally involved and ideas from both are incorporated into sailing events. We promote and develop teamwork and sportsmanship on and off the water. We provide recreational sailboats and racing boats, participate in intercollegiate and club regattas, and teach members to sail.</Description>
+        <Meeting>Thursday 7:00pm</Meeting>
+    </Group>
+
+    <!-- Soccer Club -->
+    <Group GID="G015">
+        <id>15</id>
+        <name>Soccer Club</name>
+        <Description>Our organization's mission is to give Auburn University women the opportunity to play club-level soccer in a competitive and fun environment. We are looking at bringing the best quality and dedicated individuals together to play soccer at a competitive level and represent the university as we compete with other major college club teams. <br/> At the beginning of each semester, we hold tryouts on Auburn's campus. Tryouts are fun, relaxed, and consist of different drills and games to showcase each player's skills. We normally roster around 20-23 members and practice Monday and Wednesday nights from 8:00-10:00pm at the SportsPlex. <br/> In addition to practices, we travel multiple weekends throughout the semester. We primarily play other SEC Club teams and other smaller schools' club teams within the southeast. </Description>
+        <Meeting>Monday/Wednesday 8:00-10:00pm</Meeting>
+    </Group>
+
+    <!-- Softball Club -->
+    <Group GID="G016">
+        <id>16</id>
+        <name>Softball Club</name>
+        <Description>We are a competitive fastpitch club softball team representing Auburn University. Throughout the fall and spring semesters, we practice 2-3 times a week and play games on weekends as a part of the National Club Softball Association (NCSA) against other schools in the Southeast. These games include hosted home games and travel games. The 2022-23 season schedule will come out in late summer!</Description>
+        <Meeting>Tuesday/Wednesday 7:00-9:00pm</Meeting>
+    </Group>
+
+    <!-- Swimming Club -->
+    <Group GID="G017">
+        <id>17</id>
+        <name>Swimming Club</name>
+        <Description>Auburn Club Swimming is a co-ed competitive swim team open to all university students. Our focus is to provide an environment for students to continue swimming and compete with other university club teams across the country. </Description>
+        <Meeting>Monday-Thursday 7:30-8:45pm</Meeting>
+    </Group>
+
+    <!-- Team Handball Club -->
+    <Group GID="G018">
+        <id>18</id>
+        <name>Team Handball Club</name>
+        <Description>Team Handball Club is hosting </Description>
+        <Meeting>Tuesday6:00-8:00pm/Thursday8:30-10:30pm</Meeting>
+    </Group>
+
+    <!-- Tennis Club -->
+    <Group GID="G019">
+        <id>19</id>
+        <name>Tennis Club</name>
+        <Description>We compete against Collegiate club tennis teams through tournaments across the southeast. We also compete in the USTA Southern tournament for a chance to get a bid at USTA Nationals. We usually take at least two teams to compete in travel tournaments. Players who are not able to travel will still have many opportunities to play competition. We will be hosting our Invitational tournament in the spring and every member of the club will get to play.  </Description>
+        <Meeting>Tuesday/Thursday 5:00-7:00pm</Meeting>
+    </Group>
+
+    <!-- Ultimate Frisbee Club -->
+    <Group GID="G020">
+        <id>20</id>
+        <name>Ultimate Frisbee Club</name>
+        <Description>Ares Ultimate joins together Auburn men and women who all share a passion for ultimate frisbee. We strive to balance the competitiveness of a high-level sport with the fun of playing on a team.  During the Fall 2021 season, we ranked second in our section and fifth in our region. We compete in tournaments around the southeast to play against other universities such as Georgia, Florida State, Vanderbilt and more. We practice 3 times a week (Monday and Tuesday 4:15-6:00 and Thursday 6:15-8:00) at the Sportsplex. </Description>
+        <Meeting>Monday4:15-6:00pm/Tuesday4:15-6:00pm/Thursday6:15-8:00pm</Meeting>
+    </Group>
+
+    <!-- Volleyball Club -->
+    <Group GID="G021">
+        <id>21</id>
+        <name>Volleyball Club</name>
+        <Description>To promote volleyball and help members become better at the sport in an enjoyable and competitive environment. We travel to other universities to compete in tournaments throughout the fall and spring semesters. More importantly, we are centered around team building, skill improvement, and having fun in the process!</Description>
+        <Meeting>Tuesday/Thursday 6:00-8:00pm</Meeting>
+    </Group>
+
+    <!-- Waterpolo Club -->
+    <Group GID="G022">
+        <id>22</id>
+        <name>Waterpolo Club</name>
+        <Description>No experience required! Whether you have played throughout high school, you’re a former swimmer, or have never even heard of the sport. We want you! We play competitively throughout the Fall Semester, traveling throughout the Southeast to other SEC schools. In the Spring, we have a more relaxed tournament schedule that includes our home tournament as well as games outside of the SEC. We practice four days a week from 7:30-9:00 P.M. in the diving well at the James E. Martin Aquatics Center.
+            <Meeting>Monday/Thursday 7:30-9:00pm</Meeting>
+        </Description>
+    </Group>
+
+    <!-- Waterski Club -->
+    <Group GID="G023">
+        <id>23</id>
+        <name>Waterski Club</name>
+        <Description>The Auburn University Water Ski Club is a prominent, competitive club sport here on campus. We currently have about 25 members that represent the University at collegiate tournaments around the nation. We have qualified for Nationals the past several years (placing 8th overall this past year) and want to continue to build our team. Our main goal is to provide Auburn University students’ with the opportunity to participate recreationally and competitively in water skiing. The Auburn University Water Ski club was founded in 1974, and In 2006, the team won the D2 Water Ski Collegiate Nationals. Since then, the club has continued to be competitive on the national level. </Description>
+        <Meeting>Monday/Tuesday 6:30pm</Meeting>
+    </Group>
+
+    <!-- Wrestling Club -->
+    <Group GID="G024">
+        <id>24</id>
+        <name>Wrestling Club</name>
+        <Description>Auburn Wrestling club is open to all Auburn University Students. Our mission is to provide students with the opportunity to continue wrestling in college and to build the sport up in this state and across the country. We practice in the MAC gym in the recreation wellness center.  </Description>
+        <Meeting>Tuesday/Thursday 8:30-10:30pm</Meeting>
+    </Group>
+
+</Groups>
