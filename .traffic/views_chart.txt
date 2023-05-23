@@ -1,5 +1,5 @@
 
-        Total Views per Day from 2023-04-28 to 2023-05-22
+        Total Views per Day from 2023-04-28 to 2023-05-23
 
         Repository Views
      103 ┼   ╭╮
@@ -17,7 +17,7 @@
       21 ┤   ││
       14 ┤   ││
        7 ┼╮  ││  ╭╮
-       0 ┤╰──╯╰──╯╰───────────────
+       0 ┤╰──╯╰──╯╰────────────────
 
-        Chart last updated - Mon May 22 00:26:52 2023 UTC
+        Chart last updated - Tue May 23 00:26:45 2023 UTC
         
