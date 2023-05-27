@@ -4,7 +4,7 @@ Web Application Development
 
 ```
 
-        Total Views per Day from 2023-04-28 to 2023-05-26
+        Total Views per Day from 2023-04-28 to 2023-05-27
 
         Repository Views
      103 ┼   ╭╮
@@ -22,8 +22,8 @@ Web Application Development
       21 ┤   ││
       14 ┤   ││
        7 ┼╮  ││  ╭╮
-       0 ┤╰──╯╰──╯╰───────────────────
+       0 ┤╰──╯╰──╯╰────────────────────
 
-        Chart last updated - Fri May 26 00:26:08 2023 UTC
+        Chart last updated - Sat May 27 00:28:08 2023 UTC
         
 ```
